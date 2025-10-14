@@ -224,7 +224,7 @@ class FriendIntroLanding extends Component {
       if (VoterStore.voterFirstRetrieveCompleted()) {
         const dataLayerObject = {
           actionDetails: {
-            actionType: 'acceptFriendInvite',
+            actionType: 'acceptInvite',
           },
           event: 'landing',
           pageDetails: getPageDetails(),
